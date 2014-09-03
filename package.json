@@ -1,0 +1,17 @@
+{
+  "name": "tvseries",
+  "version": "0.0.1",
+  "description": "Tv Series Api example",
+  "author": "Marco Sciatta",
+  "private": true,
+  "dependencies": {
+    "express": "~4.0.0",
+    "morgan": "~1.0.0",
+    "body-parser": "~1.0.0",
+    "mongoose": "~3.8.1"
+  },
+  "scripts": {
+    "runlocal": "nodemon app.js"
+  },
+  "main": "server.js"
+}
