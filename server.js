@@ -25,5 +25,6 @@ router.get('/',function(req,res){
 //Colleghiamo le rotte contenute in router all'url /api
 app.use('/api',router);
 
+//Mettiamo il server in ascolto
 app.listen(port);
 console.log('Server listening on port: '+port);
